@@ -5,15 +5,13 @@ const NotebookPage = ({ children }: { children?: ReactNode }) => (
   <>
     <div className="paper mx-auto my-2 relative shadow-md">
       <div className="lines">
-        <div className="content overflow-hidden pb-0 overflow-ellipsis">
-          {children}
-        </div>
+        <div className="content pb-0">{children}</div>
       </div>
     </div>
     <style jsx>{`
       .paper {
         background-color: ghostwhite;
-        height: 10.5in;
+        min-height: 10.5in;
         padding-bottom: 0.28125in;
         padding-top: 1.21875in;
         width: 8in;
@@ -40,7 +38,6 @@ const NotebookPage = ({ children }: { children?: ReactNode }) => (
       .content {
         font-family: "Kalam", cursive;
         font-size: 0.25in;
-        height: 100%;
         line-height: 0.28125in;
         margin: 0 1.25in 0.28125in 1.25in;
         padding: 6px;
