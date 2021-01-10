@@ -6,7 +6,6 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "jsxImportSource": "preact",
     "lib": [
       "DOM",
       "ES2020"
