@@ -25,7 +25,9 @@ const Layout = ({
     <main>{children}</main>
     <footer>
       <Container>
-        <span>Made with ❤ by Dominic Tassio</span>
+        <div className="flex items-center justify-center h-16">
+          <span>Made with ❤ by Dominic Tassio</span>
+        </div>
       </Container>
     </footer>
   </>
