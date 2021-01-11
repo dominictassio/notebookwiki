@@ -7,6 +7,7 @@ module.exports = {
     },
     extend: {},
     screens: {
+      sm: "640px",
       paper: "calc(8in + 1rem)",
     },
   },
