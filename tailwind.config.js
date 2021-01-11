@@ -2,9 +2,12 @@ module.exports = {
   purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      padding: "0.5rem",
+    },
     extend: {},
     screens: {
-      paper: "8in",
+      paper: "calc(8in + 1rem)",
     },
   },
   variants: {
@@ -17,7 +20,7 @@ module.exports = {
         ".container": {
           maxWidth: "100%",
           "@screen paper": {
-            maxWidth: "8in",
+            maxWidth: "calc(8in + 1rem)",
           },
         },
       }),
