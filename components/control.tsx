@@ -3,14 +3,16 @@ import cx from "classnames";
 
 const Control = ({
   children,
+  className,
   label,
   showLabel = true,
 }: {
   children?: ReactNode;
+  className?: string;
   label?: [htmlFor: string, text: string];
   showLabel?: boolean;
 }) => (
-  <div>
+  <div {...{ className }}>
     {label && (
       <label htmlFor={label[0]} className={cx({ "sr-only": !showLabel })}>
         {label[1]}

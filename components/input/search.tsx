@@ -11,10 +11,10 @@ const Search = ({
   name: string;
 }) => (
   <div className="relative">
-    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+    <div className="absolute inset-y-0 left-0 px-3 flex items-center pointer-events-none border border-transparent">
       <Icons.Search />
     </div>
-    <Input {...props} className={cx("pl-10", className)} />
+    <Input {...props} className={cx("pl-12", className)} />
   </div>
 );
 

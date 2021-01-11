@@ -8,11 +8,16 @@ module.exports = {
     extend: {},
     screens: {
       sm: "640px",
+      usm: { max: "639px" },
       paper: "calc(8in + 1rem)",
+      upaper: { max: "calc(8in + 1rem - 1px)" },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      padding: ["focus"],
+      width: ["focus"],
+    },
   },
   plugins: [
     require("@tailwindcss/forms"),
