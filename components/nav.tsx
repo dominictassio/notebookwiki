@@ -19,6 +19,9 @@ const Nav = ({ icon, title }: { icon: any; title: any }) => (
               className="w-0 sm:w-auto focus:w-auto pr-0 sm:pr-3 focus:pr-3"
             ></Input.Search>
           </Control>
+          <Control className="hidden sm:block">
+            <Button>Search</Button>
+          </Control>
         </div>
       </div>
     </Container>
