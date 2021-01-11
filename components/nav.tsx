@@ -7,12 +7,9 @@ const Nav = ({ icon, title }: { icon: any; title: any }) => (
   <nav>
     <Container>
       <div className="flex items-center justify-between h-16">
-        <div className="flex items-center justify-center">
-          <div className="flex items-center">
-            <div className="p-2">
-              {icon} <span className="hidden paper:inline">{title}</span>
-            </div>
-          </div>
+        <div className="flex items-center space-x-2">
+          <span>{icon}</span>
+          <span className="hidden paper:inline">{title}</span>
         </div>
         <div className="flex items-center space-x-2">
           <Control label={["search", "Search"]} showLabel={false}>
