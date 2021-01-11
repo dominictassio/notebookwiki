@@ -1,9 +1,10 @@
+import Container from "../components/container";
 import Layout from "../components/layout";
 import NotebookPage from "../components/notebook-page";
 
 const IndexPage = () => (
   <Layout title="Home">
-    <div className="container mx-auto">
+    <Container>
       <NotebookPage>
         <h1>Batman</h1>
         <p>
@@ -35,7 +36,7 @@ const IndexPage = () => (
           totam repudiandae at.
         </p>
       </NotebookPage>
-    </div>
+    </Container>
   </Layout>
 );
 
