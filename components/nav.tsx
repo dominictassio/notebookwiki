@@ -10,7 +10,7 @@ const Nav = ({ icon, title }: { icon: any; title: any }) => (
         <div className="flex items-center justify-center">
           <div className="flex items-center">
             <div className="p-2">
-              {icon} <span className="hidden lg:inline">{title}</span>
+              {icon} <span className="hidden paper:inline">{title}</span>
             </div>
           </div>
         </div>
