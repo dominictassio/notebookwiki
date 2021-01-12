@@ -5,11 +5,6 @@ module.exports = {
     container: {
       padding: "0.5rem",
     },
-    extend: {},
-    screens: {
-      sm: "640px",
-      paper: "calc(8in + 1rem)",
-    },
   },
   variants: {
     extend: {
