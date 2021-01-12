@@ -6,7 +6,7 @@ const IndexPage = () => (
   <Layout title="Home">
     <Container>
       <NotebookPage>
-        <h1>Batman</h1>
+        <h1>Title</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           incidunt ullam doloribus iure sit sequi fugiat in, itaque excepturi
