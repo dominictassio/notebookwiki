@@ -19,16 +19,5 @@ module.exports = {
       width: ["focus"],
     },
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-    ({ addComponents }) =>
-      addComponents({
-        ".container": {
-          maxWidth: "100%",
-          "@screen paper": {
-            maxWidth: "calc(8in + 1rem)",
-          },
-        },
-      }),
-  ],
+  plugins: [require("@tailwindcss/forms")],
 };
