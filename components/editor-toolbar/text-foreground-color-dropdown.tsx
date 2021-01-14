@@ -9,20 +9,7 @@ const TextForegroundColorDropdown = () => (
           <Menu.Button className="inline-flex justify-center p-2 space-x-2 font-medium rounded-r-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2">
             <span>
               <span className="fa-layers fa-fw">
-                <FontAwesomeIcon
-                  className="text-red-600"
-                  icon={{
-                    prefix: "fas",
-                    iconName: "underscore",
-                    icon: [
-                      448,
-                      512,
-                      [],
-                      "e40f",
-                      "m432 448h-416a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z",
-                    ],
-                  }}
-                />
+                <FontAwesomeIcon className="text-red-600" icon="underscore" />
                 <FontAwesomeIcon icon="font" transform="shrink-3 up-2" />
               </span>
             </span>

@@ -11,17 +11,7 @@ const TextBackgroundColorDropdown = () => (
               <span className="fa-layers fa-fw">
                 <FontAwesomeIcon
                   className="text-yellow-300"
-                  icon={{
-                    prefix: "fas",
-                    iconName: "underscore",
-                    icon: [
-                      448,
-                      512,
-                      [],
-                      "e40f",
-                      "m432 448h-416a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z",
-                    ],
-                  }}
+                  icon="underscore"
                 />
                 <FontAwesomeIcon icon="highlighter" transform="shrink-3 up-2" />
               </span>
