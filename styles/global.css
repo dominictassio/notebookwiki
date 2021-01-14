@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+blockquote {
+  margin-left: 0.5in;
+}
+
+ol,
+ul {
+  margin-left: 0.5in;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+ol > li {
+  transform: translateY(-6px);
+}
+
+ul {
+  @apply list-disc;
+}
+
+li {
+  height: 0.28125in;
+}
